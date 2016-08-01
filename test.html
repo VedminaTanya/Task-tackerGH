@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style-1.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+	
+// $(document).ready(function(){
+//   $("#Urgency").popover({
+//     title: 'Urgency & Status',
+//     content: 'Текст панели nbkjbjb',
+//     trigger: 'hover',
+//     placement: 'top'
+//   });
+// });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $("#myPopover").popover({
+        title: 'Заголовок панели',
+        content: 'Текст панели',
+        trigger: 'hover',
+        placement: 'right'
+      });
+    });
+    </script>
+     
+    
+</head>
+<body>
+	<button type="button" class="btn btn-danger btn-lg" id="myPopover" data-toggle="popover">Кнопка с Popover</button>
+</body>
+</html>
